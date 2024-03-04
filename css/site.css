@@ -22,7 +22,7 @@ body {
 }
 
 .bg-image-url {
-    background-image: url('/img/sea-86425_1920.jpg');
+    background-image: url('img/sea-86425_1920.jpg');
 }
 
 .card-custom {
