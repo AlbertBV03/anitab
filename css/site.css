@@ -5,7 +5,7 @@ body {
 }
 
 .footer-custom {
-    background-color: #00214D; /* Color de fondo de la pagina */
+    background-color: #00214D; /* Color de fondo del footer de la pagina */
 }
 
 .navbar-custom {
@@ -27,12 +27,6 @@ body {
 
 .card-custom {
     height: 400px;
-}
-
-.card-custom-img {
-    width: 1%;
-    height: 0;
-    padding-top: 1%;
 }
 
 .bg-section2 {
