@@ -9,11 +9,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #1F50AA;
-}
-
-.navbar-custom .navbar-nav .nav-link {
-    color: #ffffff;
+    background-color: #1F50AA; /* Color de fondo del navbar*/
 }
 
 .bg-image { /* Imagen de fondo del titulo de la pagina */
@@ -21,21 +17,30 @@ body {
     background-position: center;
 }
 
-.bg-image-url {
+.bg-image-url { /* Imagen de fondo para seccion*/
     background-image: url('../img/sea-86425_1920.jpg');
 }
 
-.card-custom {
+.card-custom { /* Tamaño personalizado para cards*/
     height: 400px;
 }
 
-.bg-section2 {
+.bg-section2 { /* Seccion de mision, vision y valores*/
     background-size: cover;
     background-position: center;
     background-color: #2467C2;
 }
 
-.bg-section3 {
+.bg-section3 { /*Seccion informativa sobre los animales de tabasco*/
+    background-size: cover;
+    background-position: center;
+    background-color: #1F50AA;
+}
+
+
+/* CCS Especies*/
+
+.esp-sec1 { /*Seccion 1*/
     background-size: cover;
     background-position: center;
     background-color: #1F50AA;
