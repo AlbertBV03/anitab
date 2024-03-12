@@ -1,22 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Especies</title>
+    <title>ANITAB - Especies</title>
+    <link href="css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/site.css" rel="stylesheet" crossorigin="anonymous">
 </head>
-<body>
-    <section id="esp-sec1">
 
-    </section>
-    <section id="esp-sec2">
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom"  id="scrollHome">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ANITAB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/especies.html">Especies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/acercade.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>        
+        <section class="section bg-section2" id="">
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card border-0">
+                            <img src="img/koi-7923737_1280.jpg" class="card-img-top custom-card-img" alt="...">
+                            <div class="card-footer text-body-secondary text-end">
+                                Imagen de <a href="https://pixabay.com/es/users/ignartonosbg-21428489/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7923737">hartono subagio</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7923737">Pixabay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div>
+                            <h1 class="text-white">Peces</h1>
+                            <p class="text-white">Los peces son animales vertebrados primariamente acuáticos, generalmente ectotérmicos y con respiración por branquias. Suelen estar recubiertos por escamas, y están dotados de aletas, que permiten su movimiento continuo en los medios acuáticos, y branquias, con las que captan el oxígeno disuelto en el agua.</p>
+                        </div>
         
-    </section>
-    <section id="esp-sec3">
+                        <div class="accordion bg-section3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header accordion-bg2">
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Galería de Peces</button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body accordion-bg2">
+                                        <div class="d-flex justify-content-center">
+                                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <button type="button" class="btn accordion-bg2" data-bs-toggle="modal" data-bs-target="#BesugoModal">
+                                                            <img src="img/fish-3410329_640.png" class="d-block w-100 carrusel-img" alt="Besugo">
+                                                            Besugo
+                                                        </button>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <button type="button" class="btn accordion-bg2" data-bs-toggle="modal" data-bs-target="#JurelModal">
+                                                            <img src="img/fish-556555_640.jpg" class="d-block w-100 carrusel-img" alt="Jurel">
+                                                            Jurel
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </section>
+        <!-- <section class="section bg-section3" id="">
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <div class="card border-0">
+                            <img src="img/cumberland-slider-8038054_1280.jpg" class="card-img-top custom-card-img" alt="...">
+                            <div class="card-footer text-body-secondary text-end">
+                                Imagen de <a href="https://pixabay.com/es/users/jbooba-23039065/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8038054" target="_blank">Gregor Mima</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8038054" target="_blank">Pixabay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 d-flex align-items-center">
+                        <div>
+                            <h1 class="text-white">Reptiles</h1>
+                            <p class="text-white">Los reptiles, ​​ son una clase de animales vertebrados amniotas provistos de escamas epidérmicas de queratina. Pertenece a la taxonomía tradicional, pero de acuerdo con la sistemática cladística actual, es un grupo parafilético, es decir, que no incluye a todos los descendientes del ancestro común</p>
+                            <a href="#" class="btn btn-primary">Galería de Especies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>        
+        </section> -->
+
+        <footer class="footer-custom text-white">
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="mb-3">ANITAB</h5>
+                        <p>Descripción breve del dueño(s) de la pagina.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- <h5 class="mb-3">Navegar</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#scrollHome">Inicio</a></li>
+                            <li><a href="#scrollMVV">Misión, Visión y Valores</a></li>
+                            <li><a href="#scrollSLA">Sobre los animales</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="mb-3">Visitar</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="/index.html">Inicio</a></li>
+                            <li><a href="/especies.html">Especies</a></li>
+                            <li><a href="/acercade.httml">Acerca de</a></li>
+                            <li><a href="/contactanos.html">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-md-end">
+                        <p class="mb-0 text-end">© 2024 Alberto Barrientos Vera</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </footer>
         
-    </section>
-    <section id="esp-sec4">
         
-    </section>
+    </main>
+
+    <div class="modal fade" id="BesugoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Besugo</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/fish-3410329_640.png" class="d-block w-100 carrusel-img" alt="Besugo">
+                    </div>
+                    <div class="col-md-8">
+                        También llamado voraz o pancho. Es un pescado blanco, semigraso e incluso en invierno se convierte en pescado azul por su contenido en grasa. Es un pescado espárido y de agua salada. Es un importante pez de consumo humano por lo que se pesca intensamente.
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="JurelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Jurel</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/fish-556555_640.jpg" class="d-block w-100 carrusel-img" alt="Jurel">
+                    </div>
+                    <div class="col-md-8">
+                        El jurel  es un pez de color azul y vientre blanco, perteneciente a la familia Carangidae, se caracteriza por tener un cuerpo alargado que mide entre 20 y 50 centímetros, con una línea lateral muy marcada y una mancha oscura en el opérculo (aleta de hueso duro que cubre y protege las branquias).
+
+                        En diversas regiones se le conoce como “chicharrón” o “chicharrilla” en función de su tamaño. Se alimenta de peces pequeños, crustáceos y calamares.
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="js/bootstrap.bundle.js" crossorigin="anonymous"></script>
 </body>
 </html>
