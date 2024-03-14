@@ -64,3 +64,8 @@ body {
     background-position: center;
     background-color: #1F50AA;
 }
+
+/* Texto justificado */
+.text-justify {
+    text-align: justify;
+}
