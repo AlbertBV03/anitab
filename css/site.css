@@ -4,6 +4,10 @@ body {
     background-color: #2467C2; /* Color de fondo de la pagina */
 }
 
+p {
+    text-align: justify;
+}
+
 .accordion-item {
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
@@ -56,6 +60,19 @@ body {
     background-color: #1F50AA;
 }
 
+.bg-sectionad { /* Seccion de acerca de */
+    background-size: cover;
+    background-position: center;
+    background-color: #2467C2;
+    height: 655px;
+}
+
+.bg-sectioncontacto { /* Seccion de contactanos */
+    background-size: cover;
+    background-position: center;
+    background-color: #2467C2;
+    height: 655px;
+}
 
 /* CCS Especies*/
 
